@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap");
+@tailwind base;
+@tailwind components;
+@layer components {
+  .parent {
+    @apply hover:text-white;
+  }
+  .parent:hover .child {
+    @apply bg-white;
+  }
+
+  svg:hover {
+    @apply fill-white;
+  }
+
+  .beforeContent {
+    @apply before:content-['/'] before:absolute before:bg-quotes before:-top-5 before:left-0 before:bg-no-repeat before:-z-50 before:w-32 before:h-32;
+  }
+}
+
+@tailwind utilities;
