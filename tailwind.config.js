@@ -23,9 +23,9 @@ module.exports = {
         OpenSans: "'Open Sans', monospace",
       },
       backgroundImage: {
-        quotes: "url('/images/bg-quotes.png')",
-        DesktopBg: "url('/images/bg-curvy-desktop.svg')",
-        MobileBg: "url('/images/bg-curvy-mobile.svg')",
+        quotes: "url('images/bg-quotes.png')",
+        DesktopBg: "url('images/bg-curvy-desktop.svg')",
+        MobileBg: "url('images/bg-curvy-mobile.svg')",
       },
     },
   },

@@ -519,7 +519,7 @@ svg:hover{
   z-index: -50;
   height: 8rem;
   width: 8rem;
-  background-image: url('/images/bg-quotes.png');
+  background-image: url('images/bg-quotes.png');
   background-repeat: no-repeat;
   --tw-content: '/';
   content: var(--tw-content);
@@ -832,7 +832,7 @@ svg:hover{
 }
 
 .bg-MobileBg{
-  background-image: url('/images/bg-curvy-mobile.svg');
+  background-image: url('images/bg-curvy-mobile.svg');
 }
 
 .bg-contain{
@@ -1128,7 +1128,7 @@ svg:hover{
   }
 
   .md\:bg-DesktopBg{
-    background-image: url('/images/bg-curvy-desktop.svg');
+    background-image: url('images/bg-curvy-desktop.svg');
   }
 
   .md\:bg-left-bottom{
